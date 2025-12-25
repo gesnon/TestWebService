@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36327.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebService", "TestWebService\TestWebService.csproj", "{68A1EA77-1321-4A89-B28E-1C68C3779427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoodsmanApiProject", "LoodsmanApiProject\LoodsmanApiProject.csproj", "{6063E3D8-4D9D-4E4E-A6DF-57B17C3C2CEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68A1EA77-1321-4A89-B28E-1C68C3779427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A1EA77-1321-4A89-B28E-1C68C3779427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A1EA77-1321-4A89-B28E-1C68C3779427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A1EA77-1321-4A89-B28E-1C68C3779427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6063E3D8-4D9D-4E4E-A6DF-57B17C3C2CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6063E3D8-4D9D-4E4E-A6DF-57B17C3C2CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6063E3D8-4D9D-4E4E-A6DF-57B17C3C2CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6063E3D8-4D9D-4E4E-A6DF-57B17C3C2CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE823D84-5520-4814-9AAE-8C49E84C4241}
+	EndGlobalSection
+EndGlobal
