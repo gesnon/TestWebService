@@ -88,6 +88,7 @@ namespace LoodsmanApiProject
                     return;
                 }
 
+
                 try
                 {
                     var bytes = RenderPng(request.text);
