@@ -24,12 +24,31 @@ namespace LoodsmanApiProject
             }
             if (num == 2)
             {
-                return "Занято";
+                return "404";
             }
 
             return null;
 
 
+        }
+
+        public byte[] GetPicture(string path)
+        {           
+
+            byte[] bData = GetBytes(path);
+
+            return bData;
+        }
+
+        public static byte[] GetBytes(string Path)
+        {
+            if (System.IO.File.Exists(Path))
+            {
+                byte[] bData = System.IO.File.ReadAllBytes(Path);
+
+                return bData;
+            }
+            return null;
         }
     }
 }
